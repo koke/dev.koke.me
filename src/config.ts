@@ -6,9 +6,8 @@ export const SITE: Site = {
   profile: "https://koke.me/",
   desc: "Building on the web since 2003",
   title: "Koke",
-  lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 3,
+  postPerIndex: 5,
+  postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
 };
