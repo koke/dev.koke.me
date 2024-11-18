@@ -1,7 +1,6 @@
 ---
 import { LOCALE, SITE } from "@config";
 import "@styles/base.css";
-import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
   title?: string;
@@ -96,8 +95,6 @@ const structuredData = {
     />
 
     <meta name="theme-color" content="" />
-
-    <ViewTransitions />
   </head>
   <body>
     <slot />
