@@ -59,7 +59,7 @@ Just because it looks similar, it doesn't mean that we can now take any CSS from
 
 Once you match a specific declaration block to a component, the system still needs to be able to understand all the declarations and transform them to valid values for React Native. This works correctly if you write the CSS with React Native in mind, but there is a lot that it's not supported. For instance, you can't use [calc()](https://developer.mozilla.org/en-US/docs/Web/CSS/calc) and if you dare to use a [unit](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units) other than `px`, you get a crash. **Problem #2 is not failing when there is something that isn't supported**.
 
-![](images/Simulator-Screen-Shot-iPhone-11-2020-02-21-at-12.29.10-300x110.png)
+![Error showing JSON value '1em' of type NSString cannot be converted to a YValue. Did you forget the % or pt suffix?](images/Simulator-Screen-Shot-iPhone-11-2020-02-21-at-12.29.10-300x110.png)
 
 ## Scoping component CSS
 
