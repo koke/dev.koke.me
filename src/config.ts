@@ -25,10 +25,16 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "Tumblr",
+    href: "https://koke.tumblr.com/",
+    linkTitle: `${SITE.title} on Tumblr`,
+    active: true,
+  },
+  {
     name: "Instagram",
     href: "https://www.instagram.com/jbernal/",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
+    active: false,
   },
   {
     name: "LinkedIn",
